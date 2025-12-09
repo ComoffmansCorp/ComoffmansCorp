@@ -61,7 +61,6 @@ Hi, I'm Maxim — a backend developer passionate about **clean architecture**,
 ---
 
 # 🌈 Featured Projects  
-*(Поднимет твой профиль в глазах рекрутеров)*  
 
 ### 🌀 **Perfume Shop Backend**  
 > Modern backend for perfume store.  
@@ -74,25 +73,7 @@ Go + Java version (microservices), PostgreSQL, statistics service.
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=ComoffmansCorp&repo=perfume-shop-backend&theme=tokyonight&border_radius=12" />
 </p>
 
----
 
-# 📊 GitHub Analytics (Modern Premium Theme)
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ComoffmansCorp&theme=tokyonight&hide_border=true&show_icons=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=ComoffmansCorp&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ComoffmansCorp&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-# 🌌 Profile Views  
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=ComoffmansCorp&label=Profile%20Views&color=6&icon=0&pretty=true" />
-</p>
 
 ---
 
