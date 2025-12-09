@@ -63,13 +63,13 @@ Hi, I'm Maxim — a backend developer passionate about **clean architecture**,
 # 🌈 Featured Projects  
 
 ### 🌀 **Perfume Shop Backend**  
-> Modern backend for perfume store.  
+> Современный backend-сервис для работы онлайн магазина парфюмерии.  
 Go + Java version (microservices), PostgreSQL, statistics service.
 
 🔗 **Repo:** *(https://github.com/ComoffmansCorp/perfume-shop-backend)*  
 
 ### 🔌 Meter Management System
-Современный backend-сервис для управления задачами, актами осмотра/замены и учётом электросчётчиков.  
+> Современный backend-сервис для управления задачами, актами осмотра/замены и учётом электросчётчиков.  
 Java + Spring Boot, PostgreSQL, Docker, JWT, REST API.
 
 🔗 **Repo:** *(https://github.com/ComoffmansCorp/meter-management-system)*
