@@ -1,76 +1,61 @@
-<!-- MAIN HEADER -->
-<h1 align="center" style="font-weight:700; font-size:42px;">
-  🚀 Maxim · Backend Developer
-</h1>
-<h3 align="center">Go · Java · SQL · Cloud · Distributed Systems</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://media.tenor.com/S59bPkT0pGYAAAAC/programming.gif" width="360"/>
-</p>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&pause=1000&color=5B4BE0&center=true&vCenter=true&width=560&lines=Backend-разработчик;Go+%C2%B7+PostgreSQL+%C2%B7+Vue+%C2%B7+Kotlin;Modular+monolith+%C2%B7+Ports+%26+Adapters" alt="Typing SVG" />
 
----
+</div>
 
-# 🌟 About Me
+<br/>
 
-Hi, I'm Maxim — a backend developer passionate about **clean architecture**,  
-**high-performance services**, and **beautiful engineering solutions**.
+<div align="center">
 
-✨ **What describes me best:**
+![Domains](https://img.shields.io/badge/Domains-7-5B4BE0?style=for-the-badge)
+![Tables](https://img.shields.io/badge/DB_tables-13-5B4BE0?style=for-the-badge)
+![Endpoints](https://img.shields.io/badge/REST_endpoints-37-5B4BE0?style=for-the-badge)
+![Platforms](https://img.shields.io/badge/Platforms-3-5B4BE0?style=for-the-badge)
 
-- 🔭 Building backend pet-projects using **Go** & **Java Spring Boot**  
-- 🔧 Exploring **distributed systems**, **concurrency**, **microservices**  
-- 🧩 Designing **REST APIs**, orchestrating **Dockerized environments**  
-- 🍃 Deepening knowledge in **SQL**, **Postgres**, and **data modeling**  
-- ⚡ University labs?  
-  They don't stay labs —  
-  **я превращаю их в production-level проекты**  
+</div>
 
----
+## [Маркетплейс бытовых услуг](https://github.com/ComoffmansCorp/consumer-maintenance-system)
 
-# 🔗 Socials  
-<p align="left">
-  <a href="mailto:comoffmans@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge"/></a>
-  <a href="https://discord.gg/comoffmans"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge"/></a>
-</p>
+Платформа в духе Профи.ру: клиент публикует заявку, свободные мастера
+откликаются с ценой, клиент сам выбирает исполнителя.
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-# 🛠 Tech Stack (Modern & Clean)
+**Backend** — Go, модульный монолит по паттерну **ports & adapters**:
+7 независимых доменов (`auth`, `catalog`, `master`, `request`, `review`,
+`payment`, `chat`), связанных через интерфейсы, а не прямые импорты.
 
-## 🧠 Languages  
-<p>
-  <img src="https://skillicons.dev/icons?i=go,java,kotlin,cpp,python,javascript" height="45"/>
-</p>
+- PostgreSQL, 13 таблиц, атомарные транзакции при конкурентных откликах
+  на одну заявку
+- Эскроу-расчёты и рейтинги мастеров — через событийную модель
+  (in-process pub/sub), а не прямые вызовы между доменами
+- Специализация мастера проверяется на сервере, а не только в интерфейсе
 
-## 🚀 Backend / Frameworks  
-<p>
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,fastapi" height="45"/>
-  <img src="https://img.shields.io/badge/Go%20Concurrency-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-</p>
+</td>
+<td width="50%" valign="top">
 
-## 🗄 Databases  
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb" height="45"/>
-</p>
+**Frontend & mobile** — три клиента на одном API:
 
-## ⚙ DevOps / Tools  
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,gitlab,linux,gcp" height="45"/>
-</p>
+- Vue 3 + TypeScript — публичный сайт и встроенная админ-панель
+- Kotlin/Android — мобильный клиент мастера,
+  [android-customer](https://github.com/ComoffmansCorp/android-customer)
+- JWT (access + refresh), REST, Docker Compose — весь стек одной командой
 
----
+</td>
+</tr>
+</table>
 
-# 🌈 Featured Projects  
+<div align="center">
+<img src="https://skillicons.dev/icons?i=go,postgres,vue,ts,kotlin,docker" height="42"/>
+</div>
 
-### 🌀 **Perfume Shop Backend**  
-> Современный backend-сервис для работы онлайн магазина парфюмерии.  
-Go + Java version (microservices), PostgreSQL, statistics service.
+<br/>
 
-🔗 **Repo:** *(https://github.com/ComoffmansCorp/perfume-shop-backend)*  
+<div align="center">
 
-### 🔌 Meter Management System
-> Современный backend-сервис для управления задачами, актами осмотра/замены и учётом электросчётчиков.  
-Java + Spring Boot, PostgreSQL, Docker, JWT, REST API.
+[![Email](https://img.shields.io/badge/comoffmans%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:comoffmans@gmail.com)
 
-🔗 **Repo:** *(https://github.com/ComoffmansCorp/meter-management-system)*
-
+</div>
